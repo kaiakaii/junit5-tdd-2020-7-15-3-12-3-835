@@ -57,13 +57,13 @@ public class PlayFizzBizzTest {
     @Test
     public void should_return_fizzbizzwhizz_when_play_fizz_bizz_given_105(){
         //given
-        int number = 1;
+        int number = 105;
         FizzBizz fizzBizz = new FizzBizz();
 
         //when
         String actual = fizzBizz.playFizzBizz(number);
 
         //then
-        assertEquals("1",actual);
+        assertEquals("fizzbizzwhizz",actual);
     }
 }
