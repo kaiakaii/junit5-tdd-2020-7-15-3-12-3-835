@@ -28,7 +28,7 @@ public class PlayFizzBizzTest {
         String actual = fizzBizz.playFizzBizz(number);
 
         //then
-        assertEquals("bizz",actual);
+        assertEquals("fizz",actual);
     }
     @Test
     public void should_return_bizz_when_play_fizz_bizz_given_5(){
