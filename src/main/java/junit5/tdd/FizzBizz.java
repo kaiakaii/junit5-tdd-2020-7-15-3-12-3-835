@@ -4,7 +4,10 @@ package junit5.tdd;
 public class FizzBizz {
     public String playFizzBizz(int number) {
         //String result = "";
-        if (number % 3 == 0 && number % 5 == 0){
+        if (number % 3 == 0 && number % 5 == 0 && number % 105 == 0) {
+            return "fizzbizzwhizz";
+        }
+        if (number % 3 == 0 && number % 5 == 0) {
             return "fizzbizz";
         }
         if (number % 3 == 0) {
@@ -14,6 +17,6 @@ public class FizzBizz {
             return "bizz";
         }
 
-            return String.valueOf(number);
+        return String.valueOf(number);
     }
 }
